@@ -31,6 +31,8 @@ Quiz / Flashcards
 Score Analysis
  ↓
 Recommendations
+
+
 🛠️ Tech Stack
 Layer	Technology
 Frontend	React, Vite, CSS
@@ -38,6 +40,8 @@ Backend	Python, FastAPI
 PDF Processing	pypdf
 Communication	REST API
 Tools	VS Code, Git, GitHub
+
+
 📁 Project Structure
 AI_LMS/
 ├── frontend/
@@ -58,7 +62,9 @@ AI_LMS/
 ├── updates.md
 ├── TESTING.md
 └── claude.md
+
 🏗️ Architecture
+
 React Frontend
       ↓
 FastAPI Backend
@@ -70,12 +76,17 @@ Course Generation Engine
 Structured Course JSON
       ↓
 React Learning Interface
+
 ▶️ Run Locally
+
 Backend
+
 cd backend
 .\venv\Scripts\Activate.ps1
 uvicorn main:app --reload
+
 Frontend
+
 cd frontend
 npm install
 npm run dev
@@ -97,12 +108,14 @@ Functional MVP
 The current version uses a local/rule-based course generation approach and provides the foundation for future LLM integration, database storage, authentication, and advanced adaptive learning.
 
 📖 Documentation
+
 design.md — System architecture
 skills.md — Technologies used
 TESTING.md — Testing guide
 changelog.md — Project history
 updates.md — Current updates
 claude.md — Development notes
+
 🔗 Repository
 
 GitHub: https://github.com/srivarshini-2406/AI-LMS
